@@ -25,7 +25,7 @@ public class Target : MonoBehaviour
     // External tunables.
     public float m_fHopTime = 0.2f;
     public float m_fHopSpeed = 6.0f;
-    public float m_fScaredDistance = 0.0f;
+    public float m_fScaredDistance = 3.0f;
     public int m_nMaxMoveAttempts = 50;
 
     // Internal variables.
