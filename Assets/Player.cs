@@ -5,9 +5,9 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     // External tunables.
-    static public float m_fMaxSpeed = 0.015f;
+    static public float m_fMaxSpeed = 0.10f;
     public float m_fSlowSpeed = m_fMaxSpeed * 0.66f;
-    public float m_fIncSpeed = 0.00002f;
+    public float m_fIncSpeed = 0.0025f;
     public float m_fMagnitudeFast = 0.6f;
     public float m_fMagnitudeSlow = 0.06f;
     public float m_fFastRotateSpeed = 0.2f;
@@ -99,11 +99,8 @@ public class Player : MonoBehaviour
         }
     }
 
-    void Update()
+    void FixedUpdate()
     {
-        switch (m_nState)
-        {
-        }
         GetComponent<Renderer>().material.color = stateColors[(int)m_nState];
     }
 }

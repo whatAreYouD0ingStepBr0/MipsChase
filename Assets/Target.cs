@@ -24,7 +24,7 @@ public class Target : MonoBehaviour
 
     // External tunables.
     public float m_fHopTime = 0.2f;
-    public float m_fHopSpeed = 6.0f;
+    public float m_fHopSpeed = 6.5f;
     public float m_fScaredDistance = 3.0f;
     public int m_nMaxMoveAttempts = 50;
 
@@ -41,11 +41,8 @@ public class Target : MonoBehaviour
         m_player = GameObject.FindObjectOfType(typeof(Player)) as Player;
     }
 
-    void Update()
+    void FixedUpdate()
     {
-        switch (m_nState)
-        {
-        }
         GetComponent<Renderer>().material.color = stateColors[(int)m_nState];
     }
 
