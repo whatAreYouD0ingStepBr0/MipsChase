@@ -215,24 +215,56 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -7584827978028588409, guid: e2ee0c231ba124841927c2b7ea5b8bd0, type: 3}
+      propertyPath: m_fAngle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7584827978028588409, guid: e2ee0c231ba124841927c2b7ea5b8bd0, type: 3}
+      propertyPath: m_fSpeed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7584827978028588409, guid: e2ee0c231ba124841927c2b7ea5b8bd0, type: 3}
+      propertyPath: m_nState
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7584827978028588409, guid: e2ee0c231ba124841927c2b7ea5b8bd0, type: 3}
       propertyPath: m_fDiveTime
       value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: -7584827978028588409, guid: e2ee0c231ba124841927c2b7ea5b8bd0, type: 3}
       propertyPath: m_fIncSpeed
-      value: 0.0025
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -7584827978028588409, guid: e2ee0c231ba124841927c2b7ea5b8bd0, type: 3}
       propertyPath: m_fSlowSpeed
-      value: 0.06600001
+      value: 2.64
+      objectReference: {fileID: 0}
+    - target: {fileID: -7584827978028588409, guid: e2ee0c231ba124841927c2b7ea5b8bd0, type: 3}
+      propertyPath: m_fTargetAngle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7584827978028588409, guid: e2ee0c231ba124841927c2b7ea5b8bd0, type: 3}
+      propertyPath: m_fTargetSpeed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7584827978028588409, guid: e2ee0c231ba124841927c2b7ea5b8bd0, type: 3}
+      propertyPath: m_fDiveDistance
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -7584827978028588409, guid: e2ee0c231ba124841927c2b7ea5b8bd0, type: 3}
       propertyPath: m_fFastRotateMax
-      value: 10
+      value: 0.69
       objectReference: {fileID: 0}
     - target: {fileID: -7584827978028588409, guid: e2ee0c231ba124841927c2b7ea5b8bd0, type: 3}
       propertyPath: m_fMagnitudeFast
       value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -7584827978028588409, guid: e2ee0c231ba124841927c2b7ea5b8bd0, type: 3}
+      propertyPath: m_fMagnitudeSlow
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: -7584827978028588409, guid: e2ee0c231ba124841927c2b7ea5b8bd0, type: 3}
+      propertyPath: m_fFastRotateSpeed
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2572352322406527498, guid: e2ee0c231ba124841927c2b7ea5b8bd0, type: 3}
       propertyPath: m_Name
@@ -401,7 +433,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4597280884397473260, guid: 14486d0cabf232646b839a51f86300d5, type: 3}
       propertyPath: m_fHopSpeed
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4597280884397473260, guid: 14486d0cabf232646b839a51f86300d5, type: 3}
       propertyPath: fHopDistance

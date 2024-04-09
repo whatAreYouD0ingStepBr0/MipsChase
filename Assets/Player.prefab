@@ -185,7 +185,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_fSlowSpeed: 0.0099
   m_fIncSpeed: 0.00005
-  m_fMagnitudeFast: 0.8
+  m_fMagnitudeFast: 1
   m_fMagnitudeSlow: 0.06
   m_fFastRotateSpeed: 0.2
   m_fFastRotateMax: 10
